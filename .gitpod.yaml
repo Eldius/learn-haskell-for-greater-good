@@ -1,2 +1,2 @@
 tasks:
-  - init: sudo apt-get update && sudo apt-get install -y haskell-platform ; echo "test" > test_result.txt
+  - init: sudo apt-get update && sudo apt-get install -y haskell-platform && echo "success!" > test_result.txt || echo "failed..." > test_result.txt 
