@@ -5,4 +5,5 @@ RUN sudo apt-get update \
     haskell-platform \
     mc \
     joe \
-  && sudo rm -rf /var/lib/apt/lists/*
+  && sudo rm -rf /var/lib/apt/lists/* ; \
+  echo "test" > ./test.log
