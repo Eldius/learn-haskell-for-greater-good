@@ -1,0 +1,3 @@
+tasks:
+  - init: Install Haskell
+    command: apt-get install haskell-platform
